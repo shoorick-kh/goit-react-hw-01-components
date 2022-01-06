@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import './TransactionHistory.css';
 
 export default function TransactionHistory({ items }) {
   return (
-    <table>
-      <thead>
+    <table className="transaction__history">
+      <thead className="table__head">
         <tr>
           <th>Type</th>
           <th>Amount</th>

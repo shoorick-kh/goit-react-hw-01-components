@@ -1,0 +1,29 @@
+.statistics {
+  background-color: white;
+  padding-top: 5px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.statistics__title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.statistics__list {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.statistics__item {
+  width: 120px;
+}
+
+.statistics__label,
+.statistics__name {
+  display: block;
+  color: white;
+  background-color: tomato;
+}

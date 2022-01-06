@@ -1,0 +1,41 @@
+.friend__list {
+  display: inline-block;
+  padding: 0px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.friend__item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.friend__item {
+  border: var(--border) 3px solid;
+  border-radius: 5px;
+  width: 350px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.isOnline {
+  color: green;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.isOffline {
+  color: red;
+  font-weight: 600;
+  padding: 5px;
+}
+.friend__image {
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.friend__name {
+  font-size: 15px;
+  font-weight: 700;
+}
