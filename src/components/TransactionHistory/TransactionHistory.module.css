@@ -1,10 +1,10 @@
-.transaction__history {
+.table {
   margin: auto;
   width: 600px;
   border: red 3px solid;
   text-align: center;
 }
 
-.table__head {
+.tableHead {
   background-color: aqua;
 }

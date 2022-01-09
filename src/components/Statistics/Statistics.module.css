@@ -1,4 +1,4 @@
-.statistics {
+.container {
   background-color: white;
   padding-top: 5px;
   width: 400px;
@@ -6,23 +6,23 @@
   margin-bottom: 20px;
 }
 
-.statistics__title {
+.title {
   text-transform: uppercase;
   text-align: center;
 }
 
-.statistics__list {
+.list {
   display: flex;
   padding: 0px;
   justify-content: space-between;
 }
 
-.statistics__item {
+.item {
   width: 120px;
 }
 
-.statistics__label,
-.statistics__name {
+.label,
+.name {
   display: block;
   color: white;
   background-color: tomato;
