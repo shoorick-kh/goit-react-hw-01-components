@@ -4,7 +4,7 @@ import s from './Statistics.module.css';
 export default function Statistics({ title, stats }) {
   return (
     <section className={s.container}>
-      {(title = true && <h2 className={s.title}>{title}</h2>)}
+      {title === true && <h2 className={s.title}>{title}</h2>}
 
       <ul className={s.list}>
         {stats.map(stat => (

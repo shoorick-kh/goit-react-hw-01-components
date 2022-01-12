@@ -1,0 +1,43 @@
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.item {
+  border: var(--border) 3px solid;
+  border-radius: 5px;
+  width: 350px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.isOnline {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  color: green;
+  font-weight: 600;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.isOffline {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  color: red;
+  font-weight: 600;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.image {
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 700;
+}
